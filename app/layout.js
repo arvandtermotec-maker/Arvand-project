@@ -5,7 +5,10 @@ import WhatsAppFloat from "@/components/whatsapp-float";
 
 const siteUrl = "https://arvandtermotec.it";
 
-export const metadata = {
+export const metadata = {verification:
+  google:
+ "dn-GBLrsQbd6D7dkkAWNx6_-NTHR9syDlgqOYNDUPWs"
+},
   metadataBase: new URL(siteUrl),
   title: {
     default: "Arvand Termo Tec | HVAC e Ventilazione nel Nord Italia",
@@ -71,5 +74,7 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
-  );
-}
+
+  
+
+

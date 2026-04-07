@@ -8,7 +8,7 @@ const siteUrl = "https://arvandtermotec.it";
 export const metadata = {verification:
   google:
  "dn-GBLrsQbd6D7dkkAWNx6_-NTHR9syDlgqOYNDUPWs"
-},
+},//
   metadataBase: new URL(siteUrl),
   title: {
     default: "Arvand Termo Tec | HVAC e Ventilazione nel Nord Italia",
